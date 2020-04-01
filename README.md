@@ -13,3 +13,7 @@ Setup Github Packages settings on your `.m2/settings.xml` see [here](https://hel
   <version>2.12</version>
 </dependency>
 ```
+
+# Credit
+
+Arbu7as-OSRS for creating the repo.

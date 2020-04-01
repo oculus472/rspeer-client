@@ -17,7 +17,7 @@ if [ "$LATEST_VERSION" != "$CURRENT_VERSION" ]; then
   echo "$LATEST_VERSION" >$CURRENT_VERSION_FILE
 
   curl -X PUT \
-    "https://maven.pkg.github.com/Arbu7as-OSRS/rspeer-client/org/rspeer/$LATEST_VERSION/rspeer-$LATEST_VERSION.jar" \
+    "https://maven.pkg.github.com/oculus472/rspeer-client/org/rspeer/$LATEST_VERSION/rspeer-$LATEST_VERSION.jar" \
     -H "Authorization: token $GITHUB_TOKEN" \
     --upload-file "./rspeer.jar" -vvv
 
