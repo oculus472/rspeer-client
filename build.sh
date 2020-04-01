@@ -25,7 +25,7 @@ if [ "$LATEST_VERSION" != "$CURRENT_VERSION" ]; then
 
     git config --local user.email "action@github.com"
     git config --local user.name "GitHub Action"
-    git commit -m "Updated Current Version file" -a
+    git commit -m "Updated Current Version file: ${LATEST_VERSION}" -a
     git push "${REMOTE_REPO}" HEAD:master --follow-tags
     return 0
 fi
